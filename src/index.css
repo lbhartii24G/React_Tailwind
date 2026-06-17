@@ -11,12 +11,13 @@
 
 body{ 
   background-image: linear-gradient(rgba(0, 0, 0, 0.285), rgba(0, 0, 0, 0.5)), url(/src/assets/herobgimage.png);
-  background-size: cover;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  background-color:#000;
 }
-
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
 @media (max-width: 1400px){
   .container_wrapper{
     max-width:auto; 
