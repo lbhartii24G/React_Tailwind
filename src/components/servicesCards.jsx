@@ -52,7 +52,7 @@ const ServicesCards = () => {
     return (
         
          <div className="container_wrapper mx-auto">
-            <h3 className="text-white text-center text-[61px] font-[600]">Creative Services</h3>
+            <h3 className="text-white text-center text-[30px] md:text-[40px] lg:text-[61px] font-[600]">Creative Services</h3>
             <p className="text-white text-center">From strategy to execution, we help brands stand out and grow.</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-25 mb-25">

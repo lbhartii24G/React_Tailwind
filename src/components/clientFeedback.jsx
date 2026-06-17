@@ -84,7 +84,7 @@ const ClientFeedback = () => {
     return (
         
          <div className="">
-            <h3 className="container_wrapper mx-auto text-white text-center text-[61px] font-[600]">Client Feedback</h3>
+            <h3 className="container_wrapper mx-auto text-white text-center text-[30px] md:text-[40px] lg:text-[61px] font-[600]">Client Feedback</h3>
             <p className="container_wrapper mx-auto text-white text-center mb-25">End-toend creative solutions that help brands stand outconnect with audiences, and drive real results</p>
 
             <Swiper
