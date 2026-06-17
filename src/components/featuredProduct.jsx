@@ -41,7 +41,7 @@ const FeaturedProduct = () => {
     return (
         <div className="container_wrapper mx-auto">
             <h2 className="text-white mt-25 mb-25 mx-auto text-center text-[20px] md:text-2xl lg:text-3xl w-[90%] lg:w-5xl font-[700] uppercase leading-[35px] md:leading-[46px]">FLEETY® is a versatile creative studio specializing in Branding, Web Design & Development </h2>
-            <h3 className="text-white text-center text-[61px] font-[600]">Featured Projects</h3>
+            <h3 className="text-white text-center text-[30px] md:text-[40px] lg:text-[61px] font-[600]">Featured Projects</h3>
             <p className="text-white text-center">Selected work that speaks for itself</p>
 
             {/* featured cards */}
