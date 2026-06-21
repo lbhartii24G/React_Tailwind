@@ -8,7 +8,9 @@
   max-width:1580px;
   width:90%; 
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body{ 
   background-image: linear-gradient(rgba(0, 0, 0, 0.285), rgba(0, 0, 0, 0.5)), url(/src/assets/herobgimage.png);
   background-position: top center;

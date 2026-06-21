@@ -85,8 +85,12 @@ const ClientFeedback = () => {
         
          <div className="">
             <h3 className="container_wrapper mx-auto text-white text-center text-[30px] md:text-[40px] lg:text-[61px] font-[600]">Client Feedback</h3>
-            <p className="container_wrapper mx-auto text-white text-center mb-25">End-toend creative solutions that help brands stand outconnect with audiences, and drive real results</p>
-
+            <p className="container_wrapper mx-auto text-white text-center ">End-toend creative solutions that help brands stand outconnect with audiences, and drive real results</p>
+            <div className="py-[1px] mt-10 mb-12 md:mb-25"
+              style={{
+                  background: "linear-gradient(90deg, #fff0, #ffffff26 28%, #707070 30%, #ff824d 50%, #ffffff26 70%, #fff0)"
+              }}> 
+          </div> 
             <Swiper
                 modules={[Autoplay]}
                 navigation
@@ -120,6 +124,11 @@ const ClientFeedback = () => {
                         <p className="text-white text-[16px] font-[400] leading-[25.6px]  mt-4 mb-4">
                         {item.review}
                         </p>
+                        <div className="py-[1px] my-5"
+                        style={{
+                            background: "linear-gradient(90deg, #fff0, #ffffff26 28%, #707070 30%, #ff824d 50%, #ffffff26 70%, #fff0)"
+                        }}> 
+                    </div> 
                         <h5 className="text-white text-[18px] md:text-[22px] leading-[25.6px] font-[400]">{item.author}</h5>
                     </div>
                 </SwiperSlide> 

@@ -17,7 +17,7 @@ const SingleServiceCard = (props) => {
             <ul className="text-white pl-0 [&>li]:my-3 [&>li]:text-[14px] [&>li]:font-[300]"> 
                 {
                     serviceFeature.map(function(data, index){
-                        return <li className="pl-7 relative"><CircleCheck size={18} className="absolute left-0 " color="#ff824d"/>{data}</li>
+                        return <li key={index} className="pl-7 relative"><CircleCheck size={18} className="absolute left-0 " color="#ff824d"/>{data}</li>
                     })
                 }
                </ul>

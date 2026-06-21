@@ -5,10 +5,14 @@ import Hero from './components/hero'
 import FeaturedProduct from './components/featuredProduct'
 import ServicesCards from './components/servicesCards'
 import ClientFeedback from './components/clientFeedback'
-import { Lightbulb, Layers, Waypoints, CircleDot } from "lucide-react"
-
-
- 
+import OurImpact from './components/ourImpact'
+import CTASection from './components/ctaSection'
+import Pricing from './components/pricing'
+import Faq from './components/faq'
+import Footer from './components/footer'
+import { Lightbulb, Layers, Waypoints, CircleDot } from "lucide-react"   
+import Lenis from "lenis"
+import { useEffect } from "react"
 
 const author_arr = [
     {
@@ -35,6 +39,18 @@ const author_arr = [
 ]
 
 const App = () => {
+  useEffect(() => {
+    const lenis = new Lenis();
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
+    return () => lenis.destroy();
+  }, []);
   return (
     <>
     {/* Menu bar */}
@@ -63,7 +79,15 @@ const App = () => {
     <ServicesCards />
 
     <ClientFeedback />
-     
+
+    <OurImpact /> 
+
+    <CTASection />
+
+    <Pricing />
+
+    <Faq />
+    <Footer />
     </>
   ) 
 }

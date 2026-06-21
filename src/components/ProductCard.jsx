@@ -22,7 +22,7 @@ const ProductCard = (props) => {
                 duration-500
                 group-hover:opacity-100
                 z-20">
-                <h2 className="text-5xl font-semibold text-white">
+                <h2 className="text-[25px] md:text-5xl font-semibold text-white">
                 View More
                 </h2>
             </a>

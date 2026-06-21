@@ -12,8 +12,9 @@ const Hero = () => {
   text-transparent
   normal-case">high-impact</span> design.</h1>
             <p className="text-[#ffffffbf] text-[14px] md:text-[18px] md:max-w-[580px] font-[500]">We combine strategy, creativity and design to craft digital experiences that inspire action and fuel growth.</p>
-            <a href="https://www.linkedin.com/in/laxmi-bharti-wordpressdeveloper/" className="text-white tracking-widest bg-[#ff6b2ceb] px-6 py-5 mt-5 mb-5 rounded-full inline-block hover:shadow-[0_0_12px_#ff6b2ceb] transition-shadow duration-300">LET'S TALK <MoveUpRight className="inline-block"/></a>
+            <a href="https://www.linkedin.com/in/laxmi-bharti-wordpressdeveloper/" className="text-white text-[14px] md:text-[16px] tracking-widest bg-[#ff6b2ceb] px-5 md:px-6 py-3 md:py-5 mt-5 mb-5 rounded-full inline-block hover:shadow-[0_0_12px_#ff6b2ceb] transition-shadow duration-300">LET'S TALK <MoveUpRight className="inline-block"/></a>
             <h6 className="text-xs tracking-[.23em] text-[#ffffffbf] uppercase text-left mb-10 mt-10">Trusted By</h6> 
+            
         </div>
     )
 }
