@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-A modern and responsive portfolio website built with React and Tailwind CSS.
+A modern and responsive website built with React and Tailwind CSS.
 
 ## Features
 
@@ -22,16 +22,7 @@ A modern and responsive portfolio website built with React and Tailwind CSS.
 - Vite
 - Swiper.js
 - Lucide React
- 
 
-## Project Structure
-
-src/
-├── assets/
-├── components/
-├── App.jsx
-├── main.jsx
-└── index.css
 
 ## Live Demo 
 
